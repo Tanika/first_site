@@ -1,8 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>My Profile Page</title>
 <link href='http://fonts.googleapis.com/css?family=Damion' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
  <style>
     body {
       margin: 0 auto;
@@ -23,13 +37,37 @@ text-align: center;
   padding: 10px;
   line-height: 28px;
   color: #330066
+
+
   
   }
+ 
+
+ h3 {
+
+  font-family: 'Open Sans Condensed';
+ }
+
+
   table.center {
     margin-left:auto; 
     margin-right:auto;
   }
+#social-buttons {
+  margin-top: 50px;
 
+}
+.btn-twitter {
+  background-color: #00acee;
+  border-color: #009ad5;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #4868ac;
+  border-color: #314776;
+  color: white;
+}
 
 }
 
@@ -42,15 +80,15 @@ text-align: center;
 
   	<h1>Tanika's Page</h1>
 
-  	<h2><u>About me</u></h2>
+  	<h3><u>About me</u></h2>
 <p>
   	Student at <em>The University of Warwick</em>
 <br>
   	<small>Third year in <strong>Film and Literature</strong></small>
   </p>
 
-  <a href="http://www.google.com"><img alt='a dog' src="totoro.jpeg"></a>
-  
+  <a href="http://www.google.com"><img alt='totoro' src="totoro.jpeg" class="img-rounded"></a>
+
 <h3><u>Favourite films</u></h3>
   <p>
   	<small>Fight Club <br>Chocolat<br> The Holiday <br>Se7en<br> Red Dragon<br> My Neighbour Totoro</small>
@@ -73,6 +111,11 @@ text-align: center;
         </tr>
     </tbody>
 </table>
+
+<div id='social-buttons'>
+    <a href="http://www.twitter.com/howdytp"><button class="btn btn-lg btn-twitter">Twitter</button>
+    <a href="https://www.facebook.com/tanika.patel.1"><button class="btn btn-lg btn-facebook">Facebook</button></a>
+  </div>
 
   </body>
 
