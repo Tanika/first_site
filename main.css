@@ -10,6 +10,7 @@ body {
 
         background: #A0A0A0;
 
+
 }
       h1 {
         font-family: 'Damion', cursive;
@@ -21,10 +22,20 @@ text-align: center;
   
   }
  
+h2 {
+   font-family: 'Open Sans Condensed';
+   text-align: center;
+   font-size: 20px;
+}
+
 
  h3 {
 
   font-family: 'Open Sans Condensed';
+ }
+
+ img {
+ text-align: center;
  }
 
 
